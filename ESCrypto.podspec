@@ -26,6 +26,7 @@ Pod::Spec.new do |s|
     s.framework = "Security"
     
     # 8
+    s.source_files = 'lib/*.swiftmodule'
     s.vendored_libraries = 'lib/*.a'
     
 end

@@ -10,7 +10,7 @@ import Foundation
 import CommonCrypto
 
 /// Manager for encrypting and decrypting data
-struct ESCrypto {
+public struct ESCrypto {
     
     public static let shared: ESCryptoProtocol = ESCrypto()
     public var cryptoKeys: ESCryptoKeysModel = ESCryptoKeysModel() {

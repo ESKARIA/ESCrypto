@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D403F0242466BB6800A8BF49 /* ESCrypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = D403F0232466BB6800A8BF49 /* ESCrypto.swift */; };
+		D403F02B2466BBC400A8BF49 /* ESCryptoError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D403F02A2466BBC400A8BF49 /* ESCryptoError.swift */; };
+		D403F02F2466BBFE00A8BF49 /* ESCryptoKeysModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D403F02E2466BBFE00A8BF49 /* ESCryptoKeysModel.swift */; };
+		D403F0312466BC7500A8BF49 /* ESCryptoProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D403F0302466BC7500A8BF49 /* ESCryptoProtocol.swift */; };
+		D403F0392466BCFB00A8BF49 /* ESCryptoTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D403F0382466BCFB00A8BF49 /* ESCryptoTest.swift */; };
+		D403F03B2466BCFB00A8BF49 /* libESCrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D403F0202466BB6800A8BF49 /* libESCrypto.a */; };
+		D403F0432466BD7300A8BF49 /* ESCryptoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D403F0422466BD7300A8BF49 /* ESCryptoManager.swift */; };
+		D403F0462466BDD400A8BF49 /* ESAESCryptoManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D403F0452466BDD400A8BF49 /* ESAESCryptoManagerProtocol.swift */; };
+		D403F0482466BF5400A8BF49 /* ESConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = D403F0472466BF5400A8BF49 /* ESConstant.swift */; };
+		D403F04C2466BF8100A8BF49 /* ESAESConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = D403F04B2466BF8100A8BF49 /* ESAESConstant.swift */; };
+		D403F0502466C1EB00A8BF49 /* ESAESCryptoKeysModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D403F04F2466C1EB00A8BF49 /* ESAESCryptoKeysModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D403F03C2466BCFB00A8BF49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D403F0182466BB6800A8BF49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D403F01F2466BB6800A8BF49;
+			remoteInfo = ESCrypto;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D403F01E2466BB6800A8BF49 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D403F0202466BB6800A8BF49 /* libESCrypto.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libESCrypto.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D403F0232466BB6800A8BF49 /* ESCrypto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESCrypto.swift; sourceTree = "<group>"; };
+		D403F02A2466BBC400A8BF49 /* ESCryptoError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESCryptoError.swift; sourceTree = "<group>"; };
+		D403F02E2466BBFE00A8BF49 /* ESCryptoKeysModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESCryptoKeysModel.swift; sourceTree = "<group>"; };
+		D403F0302466BC7500A8BF49 /* ESCryptoProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESCryptoProtocol.swift; sourceTree = "<group>"; };
+		D403F0362466BCFB00A8BF49 /* ESCryptoTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ESCryptoTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D403F0382466BCFB00A8BF49 /* ESCryptoTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESCryptoTest.swift; sourceTree = "<group>"; };
+		D403F03A2466BCFB00A8BF49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D403F0422466BD7300A8BF49 /* ESCryptoManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESCryptoManager.swift; sourceTree = "<group>"; };
+		D403F0452466BDD400A8BF49 /* ESAESCryptoManagerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESAESCryptoManagerProtocol.swift; sourceTree = "<group>"; };
+		D403F0472466BF5400A8BF49 /* ESConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESConstant.swift; sourceTree = "<group>"; };
+		D403F04B2466BF8100A8BF49 /* ESAESConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESAESConstant.swift; sourceTree = "<group>"; };
+		D403F04F2466C1EB00A8BF49 /* ESAESCryptoKeysModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESAESCryptoKeysModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D403F01D2466BB6800A8BF49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D403F0332466BCFB00A8BF49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D403F03B2466BCFB00A8BF49 /* libESCrypto.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D403F0172466BB6800A8BF49 = {
+			isa = PBXGroup;
+			children = (
+				D403F0222466BB6800A8BF49 /* ESCrypto */,
+				D403F0372466BCFB00A8BF49 /* ESCryptoTest */,
+				D403F0212466BB6800A8BF49 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D403F0212466BB6800A8BF49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D403F0202466BB6800A8BF49 /* libESCrypto.a */,
+				D403F0362466BCFB00A8BF49 /* ESCryptoTest.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D403F0222466BB6800A8BF49 /* ESCrypto */ = {
+			isa = PBXGroup;
+			children = (
+				D403F0492466BF6000A8BF49 /* Constant */,
+				D403F02C2466BBE200A8BF49 /* Data Layer */,
+			);
+			path = ESCrypto;
+			sourceTree = "<group>";
+		};
+		D403F02C2466BBE200A8BF49 /* Data Layer */ = {
+			isa = PBXGroup;
+			children = (
+				D403F0412466BD5B00A8BF49 /* Managers */,
+				D403F02D2466BBE900A8BF49 /* Models */,
+			);
+			path = "Data Layer";
+			sourceTree = "<group>";
+		};
+		D403F02D2466BBE900A8BF49 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D403F02E2466BBFE00A8BF49 /* ESCryptoKeysModel.swift */,
+				D403F0522466C57A00A8BF49 /* ESCryptoError */,
+				D403F04E2466C1D600A8BF49 /* ESAESCryptoKeysModel */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D403F0372466BCFB00A8BF49 /* ESCryptoTest */ = {
+			isa = PBXGroup;
+			children = (
+				D403F0382466BCFB00A8BF49 /* ESCryptoTest.swift */,
+				D403F03A2466BCFB00A8BF49 /* Info.plist */,
+			);
+			path = ESCryptoTest;
+			sourceTree = "<group>";
+		};
+		D403F0412466BD5B00A8BF49 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				D403F0512466C56900A8BF49 /* ESCrypto */,
+				D403F0442466BD9B00A8BF49 /* AES Crypto */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		D403F0442466BD9B00A8BF49 /* AES Crypto */ = {
+			isa = PBXGroup;
+			children = (
+				D403F0422466BD7300A8BF49 /* ESCryptoManager.swift */,
+				D403F0452466BDD400A8BF49 /* ESAESCryptoManagerProtocol.swift */,
+			);
+			path = "AES Crypto";
+			sourceTree = "<group>";
+		};
+		D403F0492466BF6000A8BF49 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				D403F0472466BF5400A8BF49 /* ESConstant.swift */,
+				D403F04A2466BF6C00A8BF49 /* AESKeys */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		D403F04A2466BF6C00A8BF49 /* AESKeys */ = {
+			isa = PBXGroup;
+			children = (
+				D403F04B2466BF8100A8BF49 /* ESAESConstant.swift */,
+			);
+			path = AESKeys;
+			sourceTree = "<group>";
+		};
+		D403F04E2466C1D600A8BF49 /* ESAESCryptoKeysModel */ = {
+			isa = PBXGroup;
+			children = (
+				D403F04F2466C1EB00A8BF49 /* ESAESCryptoKeysModel.swift */,
+			);
+			path = ESAESCryptoKeysModel;
+			sourceTree = "<group>";
+		};
+		D403F0512466C56900A8BF49 /* ESCrypto */ = {
+			isa = PBXGroup;
+			children = (
+				D403F0232466BB6800A8BF49 /* ESCrypto.swift */,
+				D403F0302466BC7500A8BF49 /* ESCryptoProtocol.swift */,
+			);
+			path = ESCrypto;
+			sourceTree = "<group>";
+		};
+		D403F0522466C57A00A8BF49 /* ESCryptoError */ = {
+			isa = PBXGroup;
+			children = (
+				D403F02A2466BBC400A8BF49 /* ESCryptoError.swift */,
+			);
+			path = ESCryptoError;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D403F01F2466BB6800A8BF49 /* ESCrypto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D403F0272466BB6800A8BF49 /* Build configuration list for PBXNativeTarget "ESCrypto" */;
+			buildPhases = (
+				D403F01C2466BB6800A8BF49 /* Sources */,
+				D403F01D2466BB6800A8BF49 /* Frameworks */,
+				D403F01E2466BB6800A8BF49 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ESCrypto;
+			productName = ESCrypto;
+			productReference = D403F0202466BB6800A8BF49 /* libESCrypto.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D403F0352466BCFB00A8BF49 /* ESCryptoTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D403F03E2466BCFB00A8BF49 /* Build configuration list for PBXNativeTarget "ESCryptoTest" */;
+			buildPhases = (
+				D403F0322466BCFB00A8BF49 /* Sources */,
+				D403F0332466BCFB00A8BF49 /* Frameworks */,
+				D403F0342466BCFB00A8BF49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D403F03D2466BCFB00A8BF49 /* PBXTargetDependency */,
+			);
+			name = ESCryptoTest;
+			productName = ESCryptoTest;
+			productReference = D403F0362466BCFB00A8BF49 /* ESCryptoTest.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D403F0182466BB6800A8BF49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Dmitriy Toropkin";
+				TargetAttributes = {
+					D403F01F2466BB6800A8BF49 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					D403F0352466BCFB00A8BF49 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = D403F01B2466BB6800A8BF49 /* Build configuration list for PBXProject "ESCrypto" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D403F0172466BB6800A8BF49;
+			productRefGroup = D403F0212466BB6800A8BF49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D403F01F2466BB6800A8BF49 /* ESCrypto */,
+				D403F0352466BCFB00A8BF49 /* ESCryptoTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D403F0342466BCFB00A8BF49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D403F01C2466BB6800A8BF49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D403F0462466BDD400A8BF49 /* ESAESCryptoManagerProtocol.swift in Sources */,
+				D403F04C2466BF8100A8BF49 /* ESAESConstant.swift in Sources */,
+				D403F0312466BC7500A8BF49 /* ESCryptoProtocol.swift in Sources */,
+				D403F0242466BB6800A8BF49 /* ESCrypto.swift in Sources */,
+				D403F0482466BF5400A8BF49 /* ESConstant.swift in Sources */,
+				D403F02B2466BBC400A8BF49 /* ESCryptoError.swift in Sources */,
+				D403F02F2466BBFE00A8BF49 /* ESCryptoKeysModel.swift in Sources */,
+				D403F0432466BD7300A8BF49 /* ESCryptoManager.swift in Sources */,
+				D403F0502466C1EB00A8BF49 /* ESAESCryptoKeysModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D403F0322466BCFB00A8BF49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D403F0392466BCFB00A8BF49 /* ESCryptoTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D403F03D2466BCFB00A8BF49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D403F01F2466BB6800A8BF49 /* ESCrypto */;
+			targetProxy = D403F03C2466BCFB00A8BF49 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D403F0252466BB6800A8BF49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D403F0262466BB6800A8BF49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D403F0282466BB6800A8BF49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2W82R63KFN;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D403F0292466BB6800A8BF49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2W82R63KFN;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D403F03F2466BCFB00A8BF49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2W82R63KFN;
+				INFOPLIST_FILE = ESCryptoTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = DmitriyToropkin.ESCryptoTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D403F0402466BCFB00A8BF49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2W82R63KFN;
+				INFOPLIST_FILE = ESCryptoTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = DmitriyToropkin.ESCryptoTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D403F01B2466BB6800A8BF49 /* Build configuration list for PBXProject "ESCrypto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D403F0252466BB6800A8BF49 /* Debug */,
+				D403F0262466BB6800A8BF49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D403F0272466BB6800A8BF49 /* Build configuration list for PBXNativeTarget "ESCrypto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D403F0282466BB6800A8BF49 /* Debug */,
+				D403F0292466BB6800A8BF49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D403F03E2466BCFB00A8BF49 /* Build configuration list for PBXNativeTarget "ESCryptoTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D403F03F2466BCFB00A8BF49 /* Debug */,
+				D403F0402466BCFB00A8BF49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D403F0182466BB6800A8BF49 /* Project object */;
+}

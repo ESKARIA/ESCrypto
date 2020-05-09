@@ -18,6 +18,7 @@
 		D403F0482466BF5400A8BF49 /* ESConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = D403F0472466BF5400A8BF49 /* ESConstant.swift */; };
 		D403F04C2466BF8100A8BF49 /* ESAESConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = D403F04B2466BF8100A8BF49 /* ESAESConstant.swift */; };
 		D403F0502466C1EB00A8BF49 /* ESAESCryptoKeysModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D403F04F2466C1EB00A8BF49 /* ESAESCryptoKeysModel.swift */; };
+		D403F0552466DE4400A8BF49 /* libESCrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D403F0542466DE4400A8BF49 /* libESCrypto.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		D403F0472466BF5400A8BF49 /* ESConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESConstant.swift; sourceTree = "<group>"; };
 		D403F04B2466BF8100A8BF49 /* ESAESConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESAESConstant.swift; sourceTree = "<group>"; };
 		D403F04F2466C1EB00A8BF49 /* ESAESCryptoKeysModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESAESCryptoKeysModel.swift; sourceTree = "<group>"; };
+		D403F0532466DABD00A8BF49 /* ESCrypto.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ESCrypto.podspec; sourceTree = "<group>"; };
+		D403F0542466DE4400A8BF49 /* libESCrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libESCrypto.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D403F0552466DE4400A8BF49 /* libESCrypto.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +84,8 @@
 		D403F0172466BB6800A8BF49 = {
 			isa = PBXGroup;
 			children = (
+				D403F0542466DE4400A8BF49 /* libESCrypto.a */,
+				D403F0532466DABD00A8BF49 /* ESCrypto.podspec */,
 				D403F0222466BB6800A8BF49 /* ESCrypto */,
 				D403F0372466BCFB00A8BF49 /* ESCryptoTest */,
 				D403F0212466BB6800A8BF49 /* Products */,
@@ -432,6 +438,10 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2W82R63KFN;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -445,6 +455,10 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2W82R63KFN;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;

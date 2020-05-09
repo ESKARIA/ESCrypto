@@ -84,7 +84,6 @@
 		D403F0172466BB6800A8BF49 = {
 			isa = PBXGroup;
 			children = (
-				D403F0542466DE4400A8BF49 /* libESCrypto.a */,
 				D403F0532466DABD00A8BF49 /* ESCrypto.podspec */,
 				D403F0222466BB6800A8BF49 /* ESCrypto */,
 				D403F0372466BCFB00A8BF49 /* ESCryptoTest */,
@@ -104,6 +103,7 @@
 		D403F0222466BB6800A8BF49 /* ESCrypto */ = {
 			isa = PBXGroup;
 			children = (
+				D403F0542466DE4400A8BF49 /* libESCrypto.a */,
 				D403F0492466BF6000A8BF49 /* Constant */,
 				D403F02C2466BBE200A8BF49 /* Data Layer */,
 			);

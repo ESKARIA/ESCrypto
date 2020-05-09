@@ -27,5 +27,6 @@ Pod::Spec.new do |s|
     
     # 8
     s.vendored_libraries = 'lib/*.a'
+    s.source_files = "ESCrypto/**/*.{swift}"
     
 end

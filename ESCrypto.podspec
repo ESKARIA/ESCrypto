@@ -26,10 +26,6 @@ Pod::Spec.new do |s|
     s.framework = "Security"
     
     # 8
-    s.source_files = "ESCrypto/**/*.{swift}"
-    
-    # 9
-    s.resources = "ESCrypto/**/*.{png,jpeg,jpg,storyboard,xib}"
     s.vendored_libraries = 'ESCrypto/*.a'
     
 end

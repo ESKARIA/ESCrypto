@@ -7,203 +7,209 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D403F0242466BB6800A8BF49 /* ESCrypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = D403F0232466BB6800A8BF49 /* ESCrypto.swift */; };
-		D403F02B2466BBC400A8BF49 /* ESCryptoError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D403F02A2466BBC400A8BF49 /* ESCryptoError.swift */; };
-		D403F02F2466BBFE00A8BF49 /* ESCryptoKeysModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D403F02E2466BBFE00A8BF49 /* ESCryptoKeysModel.swift */; };
-		D403F0312466BC7500A8BF49 /* ESCryptoProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D403F0302466BC7500A8BF49 /* ESCryptoProtocol.swift */; };
-		D403F0392466BCFB00A8BF49 /* ESCryptoTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D403F0382466BCFB00A8BF49 /* ESCryptoTest.swift */; };
-		D403F03B2466BCFB00A8BF49 /* libESCrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D403F0202466BB6800A8BF49 /* libESCrypto.a */; };
-		D403F0432466BD7300A8BF49 /* ESCryptoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D403F0422466BD7300A8BF49 /* ESCryptoManager.swift */; };
-		D403F0462466BDD400A8BF49 /* ESAESCryptoManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D403F0452466BDD400A8BF49 /* ESAESCryptoManagerProtocol.swift */; };
-		D403F0482466BF5400A8BF49 /* ESConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = D403F0472466BF5400A8BF49 /* ESConstant.swift */; };
-		D403F04C2466BF8100A8BF49 /* ESAESConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = D403F04B2466BF8100A8BF49 /* ESAESConstant.swift */; };
-		D403F0502466C1EB00A8BF49 /* ESAESCryptoKeysModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D403F04F2466C1EB00A8BF49 /* ESAESCryptoKeysModel.swift */; };
+		D4B8F2B324674434007F3615 /* ESCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4B8F2A924674434007F3615 /* ESCrypto.framework */; };
+		D4B8F2B824674434007F3615 /* ESCryptoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B8F2B724674434007F3615 /* ESCryptoTests.swift */; };
+		D4B8F2BA24674434007F3615 /* ESCrypto.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B8F2AC24674434007F3615 /* ESCrypto.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B8F2C724674454007F3615 /* ESConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B8F2C424674454007F3615 /* ESConstant.swift */; };
+		D4B8F2C824674454007F3615 /* ESAESConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B8F2C624674454007F3615 /* ESAESConstant.swift */; };
+		D4B8F2D72467445E007F3615 /* ESCryptoProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B8F2CC2467445E007F3615 /* ESCryptoProtocol.swift */; };
+		D4B8F2D82467445E007F3615 /* ESCrypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B8F2CD2467445E007F3615 /* ESCrypto.swift */; };
+		D4B8F2D92467445E007F3615 /* ESCryptoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B8F2CF2467445E007F3615 /* ESCryptoManager.swift */; };
+		D4B8F2DA2467445E007F3615 /* ESAESCryptoManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B8F2D02467445E007F3615 /* ESAESCryptoManagerProtocol.swift */; };
+		D4B8F2DB2467445E007F3615 /* ESCryptoKeysModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B8F2D22467445E007F3615 /* ESCryptoKeysModel.swift */; };
+		D4B8F2DC2467445E007F3615 /* ESCryptoError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B8F2D42467445E007F3615 /* ESCryptoError.swift */; };
+		D4B8F2DD2467445E007F3615 /* ESAESCryptoKeysModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B8F2D62467445E007F3615 /* ESAESCryptoKeysModel.swift */; };
+		D4B8F2DF24674498007F3615 /* ESCrypto.podspec in Resources */ = {isa = PBXBuildFile; fileRef = D4B8F2DE24674498007F3615 /* ESCrypto.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		D403F03C2466BCFB00A8BF49 /* PBXContainerItemProxy */ = {
+		D4B8F2B424674434007F3615 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D403F0182466BB6800A8BF49 /* Project object */;
+			containerPortal = D4B8F2A024674434007F3615 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D403F01F2466BB6800A8BF49;
+			remoteGlobalIDString = D4B8F2A824674434007F3615;
 			remoteInfo = ESCrypto;
 		};
 /* End PBXContainerItemProxy section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		D403F01E2466BB6800A8BF49 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "include/$(PRODUCT_NAME)";
-			dstSubfolderSpec = 16;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		D403F0202466BB6800A8BF49 /* libESCrypto.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libESCrypto.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		D403F0232466BB6800A8BF49 /* ESCrypto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESCrypto.swift; sourceTree = "<group>"; };
-		D403F02A2466BBC400A8BF49 /* ESCryptoError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESCryptoError.swift; sourceTree = "<group>"; };
-		D403F02E2466BBFE00A8BF49 /* ESCryptoKeysModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESCryptoKeysModel.swift; sourceTree = "<group>"; };
-		D403F0302466BC7500A8BF49 /* ESCryptoProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESCryptoProtocol.swift; sourceTree = "<group>"; };
-		D403F0362466BCFB00A8BF49 /* ESCryptoTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ESCryptoTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D403F0382466BCFB00A8BF49 /* ESCryptoTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESCryptoTest.swift; sourceTree = "<group>"; };
-		D403F03A2466BCFB00A8BF49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D403F0422466BD7300A8BF49 /* ESCryptoManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESCryptoManager.swift; sourceTree = "<group>"; };
-		D403F0452466BDD400A8BF49 /* ESAESCryptoManagerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESAESCryptoManagerProtocol.swift; sourceTree = "<group>"; };
-		D403F0472466BF5400A8BF49 /* ESConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESConstant.swift; sourceTree = "<group>"; };
-		D403F04B2466BF8100A8BF49 /* ESAESConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESAESConstant.swift; sourceTree = "<group>"; };
-		D403F04F2466C1EB00A8BF49 /* ESAESCryptoKeysModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESAESCryptoKeysModel.swift; sourceTree = "<group>"; };
-		D403F0532466DABD00A8BF49 /* ESCrypto.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ESCrypto.podspec; sourceTree = "<group>"; };
+		D4B8F2A924674434007F3615 /* ESCrypto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ESCrypto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4B8F2AC24674434007F3615 /* ESCrypto.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ESCrypto.h; sourceTree = "<group>"; };
+		D4B8F2AD24674434007F3615 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4B8F2B224674434007F3615 /* ESCryptoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ESCryptoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4B8F2B724674434007F3615 /* ESCryptoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESCryptoTests.swift; sourceTree = "<group>"; };
+		D4B8F2B924674434007F3615 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4B8F2C424674454007F3615 /* ESConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESConstant.swift; sourceTree = "<group>"; };
+		D4B8F2C624674454007F3615 /* ESAESConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESAESConstant.swift; sourceTree = "<group>"; };
+		D4B8F2CC2467445E007F3615 /* ESCryptoProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESCryptoProtocol.swift; sourceTree = "<group>"; };
+		D4B8F2CD2467445E007F3615 /* ESCrypto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESCrypto.swift; sourceTree = "<group>"; };
+		D4B8F2CF2467445E007F3615 /* ESCryptoManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESCryptoManager.swift; sourceTree = "<group>"; };
+		D4B8F2D02467445E007F3615 /* ESAESCryptoManagerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESAESCryptoManagerProtocol.swift; sourceTree = "<group>"; };
+		D4B8F2D22467445E007F3615 /* ESCryptoKeysModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESCryptoKeysModel.swift; sourceTree = "<group>"; };
+		D4B8F2D42467445E007F3615 /* ESCryptoError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESCryptoError.swift; sourceTree = "<group>"; };
+		D4B8F2D62467445E007F3615 /* ESAESCryptoKeysModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESAESCryptoKeysModel.swift; sourceTree = "<group>"; };
+		D4B8F2DE24674498007F3615 /* ESCrypto.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ESCrypto.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D403F01D2466BB6800A8BF49 /* Frameworks */ = {
+		D4B8F2A624674434007F3615 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D403F0332466BCFB00A8BF49 /* Frameworks */ = {
+		D4B8F2AF24674434007F3615 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D403F03B2466BCFB00A8BF49 /* libESCrypto.a in Frameworks */,
+				D4B8F2B324674434007F3615 /* ESCrypto.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D403F0172466BB6800A8BF49 = {
+		D4B8F29F24674434007F3615 = {
 			isa = PBXGroup;
 			children = (
-				D403F0532466DABD00A8BF49 /* ESCrypto.podspec */,
-				D403F0222466BB6800A8BF49 /* ESCrypto */,
-				D403F0372466BCFB00A8BF49 /* ESCryptoTest */,
-				D403F0212466BB6800A8BF49 /* Products */,
+				D4B8F2DE24674498007F3615 /* ESCrypto.podspec */,
+				D4B8F2AB24674434007F3615 /* ESCrypto */,
+				D4B8F2B624674434007F3615 /* ESCryptoTests */,
+				D4B8F2AA24674434007F3615 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		D403F0212466BB6800A8BF49 /* Products */ = {
+		D4B8F2AA24674434007F3615 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D403F0202466BB6800A8BF49 /* libESCrypto.a */,
-				D403F0362466BCFB00A8BF49 /* ESCryptoTest.xctest */,
+				D4B8F2A924674434007F3615 /* ESCrypto.framework */,
+				D4B8F2B224674434007F3615 /* ESCryptoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D403F0222466BB6800A8BF49 /* ESCrypto */ = {
+		D4B8F2AB24674434007F3615 /* ESCrypto */ = {
 			isa = PBXGroup;
 			children = (
-				D403F0492466BF6000A8BF49 /* Constant */,
-				D403F02C2466BBE200A8BF49 /* Data Layer */,
+				D4B8F2AC24674434007F3615 /* ESCrypto.h */,
+				D4B8F2AD24674434007F3615 /* Info.plist */,
+				D4B8F2C92467445E007F3615 /* Data Layer */,
+				D4B8F2C324674454007F3615 /* Constant */,
 			);
 			path = ESCrypto;
 			sourceTree = "<group>";
 		};
-		D403F02C2466BBE200A8BF49 /* Data Layer */ = {
+		D4B8F2B624674434007F3615 /* ESCryptoTests */ = {
 			isa = PBXGroup;
 			children = (
-				D403F0412466BD5B00A8BF49 /* Managers */,
-				D403F02D2466BBE900A8BF49 /* Models */,
+				D4B8F2B724674434007F3615 /* ESCryptoTests.swift */,
+				D4B8F2B924674434007F3615 /* Info.plist */,
 			);
-			path = "Data Layer";
+			path = ESCryptoTests;
 			sourceTree = "<group>";
 		};
-		D403F02D2466BBE900A8BF49 /* Models */ = {
+		D4B8F2C324674454007F3615 /* Constant */ = {
 			isa = PBXGroup;
 			children = (
-				D403F02E2466BBFE00A8BF49 /* ESCryptoKeysModel.swift */,
-				D403F0522466C57A00A8BF49 /* ESCryptoError */,
-				D403F04E2466C1D600A8BF49 /* ESAESCryptoKeysModel */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		D403F0372466BCFB00A8BF49 /* ESCryptoTest */ = {
-			isa = PBXGroup;
-			children = (
-				D403F0382466BCFB00A8BF49 /* ESCryptoTest.swift */,
-				D403F03A2466BCFB00A8BF49 /* Info.plist */,
-			);
-			path = ESCryptoTest;
-			sourceTree = "<group>";
-		};
-		D403F0412466BD5B00A8BF49 /* Managers */ = {
-			isa = PBXGroup;
-			children = (
-				D403F0512466C56900A8BF49 /* ESCrypto */,
-				D403F0442466BD9B00A8BF49 /* AES Crypto */,
-			);
-			path = Managers;
-			sourceTree = "<group>";
-		};
-		D403F0442466BD9B00A8BF49 /* AES Crypto */ = {
-			isa = PBXGroup;
-			children = (
-				D403F0422466BD7300A8BF49 /* ESCryptoManager.swift */,
-				D403F0452466BDD400A8BF49 /* ESAESCryptoManagerProtocol.swift */,
-			);
-			path = "AES Crypto";
-			sourceTree = "<group>";
-		};
-		D403F0492466BF6000A8BF49 /* Constant */ = {
-			isa = PBXGroup;
-			children = (
-				D403F0472466BF5400A8BF49 /* ESConstant.swift */,
-				D403F04A2466BF6C00A8BF49 /* AESKeys */,
+				D4B8F2C424674454007F3615 /* ESConstant.swift */,
+				D4B8F2C524674454007F3615 /* AESKeys */,
 			);
 			path = Constant;
 			sourceTree = "<group>";
 		};
-		D403F04A2466BF6C00A8BF49 /* AESKeys */ = {
+		D4B8F2C524674454007F3615 /* AESKeys */ = {
 			isa = PBXGroup;
 			children = (
-				D403F04B2466BF8100A8BF49 /* ESAESConstant.swift */,
+				D4B8F2C624674454007F3615 /* ESAESConstant.swift */,
 			);
 			path = AESKeys;
 			sourceTree = "<group>";
 		};
-		D403F04E2466C1D600A8BF49 /* ESAESCryptoKeysModel */ = {
+		D4B8F2C92467445E007F3615 /* Data Layer */ = {
 			isa = PBXGroup;
 			children = (
-				D403F04F2466C1EB00A8BF49 /* ESAESCryptoKeysModel.swift */,
+				D4B8F2CA2467445E007F3615 /* Managers */,
+				D4B8F2D12467445E007F3615 /* Models */,
 			);
-			path = ESAESCryptoKeysModel;
+			path = "Data Layer";
 			sourceTree = "<group>";
 		};
-		D403F0512466C56900A8BF49 /* ESCrypto */ = {
+		D4B8F2CA2467445E007F3615 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
-				D403F0232466BB6800A8BF49 /* ESCrypto.swift */,
-				D403F0302466BC7500A8BF49 /* ESCryptoProtocol.swift */,
+				D4B8F2CB2467445E007F3615 /* ESCrypto */,
+				D4B8F2CE2467445E007F3615 /* AES Crypto */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		D4B8F2CB2467445E007F3615 /* ESCrypto */ = {
+			isa = PBXGroup;
+			children = (
+				D4B8F2CC2467445E007F3615 /* ESCryptoProtocol.swift */,
+				D4B8F2CD2467445E007F3615 /* ESCrypto.swift */,
 			);
 			path = ESCrypto;
 			sourceTree = "<group>";
 		};
-		D403F0522466C57A00A8BF49 /* ESCryptoError */ = {
+		D4B8F2CE2467445E007F3615 /* AES Crypto */ = {
 			isa = PBXGroup;
 			children = (
-				D403F02A2466BBC400A8BF49 /* ESCryptoError.swift */,
+				D4B8F2CF2467445E007F3615 /* ESCryptoManager.swift */,
+				D4B8F2D02467445E007F3615 /* ESAESCryptoManagerProtocol.swift */,
+			);
+			path = "AES Crypto";
+			sourceTree = "<group>";
+		};
+		D4B8F2D12467445E007F3615 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D4B8F2D22467445E007F3615 /* ESCryptoKeysModel.swift */,
+				D4B8F2D32467445E007F3615 /* ESCryptoError */,
+				D4B8F2D52467445E007F3615 /* ESAESCryptoKeysModel */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D4B8F2D32467445E007F3615 /* ESCryptoError */ = {
+			isa = PBXGroup;
+			children = (
+				D4B8F2D42467445E007F3615 /* ESCryptoError.swift */,
 			);
 			path = ESCryptoError;
 			sourceTree = "<group>";
 		};
+		D4B8F2D52467445E007F3615 /* ESAESCryptoKeysModel */ = {
+			isa = PBXGroup;
+			children = (
+				D4B8F2D62467445E007F3615 /* ESAESCryptoKeysModel.swift */,
+			);
+			path = ESAESCryptoKeysModel;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		D4B8F2A424674434007F3615 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4B8F2BA24674434007F3615 /* ESCrypto.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		D403F01F2466BB6800A8BF49 /* ESCrypto */ = {
+		D4B8F2A824674434007F3615 /* ESCrypto */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D403F0272466BB6800A8BF49 /* Build configuration list for PBXNativeTarget "ESCrypto" */;
+			buildConfigurationList = D4B8F2BD24674434007F3615 /* Build configuration list for PBXNativeTarget "ESCrypto" */;
 			buildPhases = (
-				D403F01C2466BB6800A8BF49 /* Sources */,
-				D403F01D2466BB6800A8BF49 /* Frameworks */,
-				D403F01E2466BB6800A8BF49 /* CopyFiles */,
+				D4B8F2A424674434007F3615 /* Headers */,
+				D4B8F2A524674434007F3615 /* Sources */,
+				D4B8F2A624674434007F3615 /* Frameworks */,
+				D4B8F2A724674434007F3615 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -211,46 +217,46 @@
 			);
 			name = ESCrypto;
 			productName = ESCrypto;
-			productReference = D403F0202466BB6800A8BF49 /* libESCrypto.a */;
-			productType = "com.apple.product-type.library.static";
+			productReference = D4B8F2A924674434007F3615 /* ESCrypto.framework */;
+			productType = "com.apple.product-type.framework";
 		};
-		D403F0352466BCFB00A8BF49 /* ESCryptoTest */ = {
+		D4B8F2B124674434007F3615 /* ESCryptoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D403F03E2466BCFB00A8BF49 /* Build configuration list for PBXNativeTarget "ESCryptoTest" */;
+			buildConfigurationList = D4B8F2C024674434007F3615 /* Build configuration list for PBXNativeTarget "ESCryptoTests" */;
 			buildPhases = (
-				D403F0322466BCFB00A8BF49 /* Sources */,
-				D403F0332466BCFB00A8BF49 /* Frameworks */,
-				D403F0342466BCFB00A8BF49 /* Resources */,
+				D4B8F2AE24674434007F3615 /* Sources */,
+				D4B8F2AF24674434007F3615 /* Frameworks */,
+				D4B8F2B024674434007F3615 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D403F03D2466BCFB00A8BF49 /* PBXTargetDependency */,
+				D4B8F2B524674434007F3615 /* PBXTargetDependency */,
 			);
-			name = ESCryptoTest;
-			productName = ESCryptoTest;
-			productReference = D403F0362466BCFB00A8BF49 /* ESCryptoTest.xctest */;
+			name = ESCryptoTests;
+			productName = ESCryptoTests;
+			productReference = D4B8F2B224674434007F3615 /* ESCryptoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D403F0182466BB6800A8BF49 /* Project object */ = {
+		D4B8F2A024674434007F3615 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1140;
 				LastUpgradeCheck = 1140;
 				ORGANIZATIONNAME = "Dmitriy Toropkin";
 				TargetAttributes = {
-					D403F01F2466BB6800A8BF49 = {
+					D4B8F2A824674434007F3615 = {
 						CreatedOnToolsVersion = 11.4.1;
 					};
-					D403F0352466BCFB00A8BF49 = {
+					D4B8F2B124674434007F3615 = {
 						CreatedOnToolsVersion = 11.4.1;
 					};
 				};
 			};
-			buildConfigurationList = D403F01B2466BB6800A8BF49 /* Build configuration list for PBXProject "ESCrypto" */;
+			buildConfigurationList = D4B8F2A324674434007F3615 /* Build configuration list for PBXProject "ESCrypto" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -258,19 +264,27 @@
 				en,
 				Base,
 			);
-			mainGroup = D403F0172466BB6800A8BF49;
-			productRefGroup = D403F0212466BB6800A8BF49 /* Products */;
+			mainGroup = D4B8F29F24674434007F3615;
+			productRefGroup = D4B8F2AA24674434007F3615 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D403F01F2466BB6800A8BF49 /* ESCrypto */,
-				D403F0352466BCFB00A8BF49 /* ESCryptoTest */,
+				D4B8F2A824674434007F3615 /* ESCrypto */,
+				D4B8F2B124674434007F3615 /* ESCryptoTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D403F0342466BCFB00A8BF49 /* Resources */ = {
+		D4B8F2A724674434007F3615 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4B8F2DF24674498007F3615 /* ESCrypto.podspec in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4B8F2B024674434007F3615 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -280,42 +294,42 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D403F01C2466BB6800A8BF49 /* Sources */ = {
+		D4B8F2A524674434007F3615 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D403F0462466BDD400A8BF49 /* ESAESCryptoManagerProtocol.swift in Sources */,
-				D403F04C2466BF8100A8BF49 /* ESAESConstant.swift in Sources */,
-				D403F0312466BC7500A8BF49 /* ESCryptoProtocol.swift in Sources */,
-				D403F0242466BB6800A8BF49 /* ESCrypto.swift in Sources */,
-				D403F0482466BF5400A8BF49 /* ESConstant.swift in Sources */,
-				D403F02B2466BBC400A8BF49 /* ESCryptoError.swift in Sources */,
-				D403F02F2466BBFE00A8BF49 /* ESCryptoKeysModel.swift in Sources */,
-				D403F0432466BD7300A8BF49 /* ESCryptoManager.swift in Sources */,
-				D403F0502466C1EB00A8BF49 /* ESAESCryptoKeysModel.swift in Sources */,
+				D4B8F2DA2467445E007F3615 /* ESAESCryptoManagerProtocol.swift in Sources */,
+				D4B8F2DC2467445E007F3615 /* ESCryptoError.swift in Sources */,
+				D4B8F2C724674454007F3615 /* ESConstant.swift in Sources */,
+				D4B8F2D72467445E007F3615 /* ESCryptoProtocol.swift in Sources */,
+				D4B8F2DB2467445E007F3615 /* ESCryptoKeysModel.swift in Sources */,
+				D4B8F2D82467445E007F3615 /* ESCrypto.swift in Sources */,
+				D4B8F2C824674454007F3615 /* ESAESConstant.swift in Sources */,
+				D4B8F2D92467445E007F3615 /* ESCryptoManager.swift in Sources */,
+				D4B8F2DD2467445E007F3615 /* ESAESCryptoKeysModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D403F0322466BCFB00A8BF49 /* Sources */ = {
+		D4B8F2AE24674434007F3615 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D403F0392466BCFB00A8BF49 /* ESCryptoTest.swift in Sources */,
+				D4B8F2B824674434007F3615 /* ESCryptoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		D403F03D2466BCFB00A8BF49 /* PBXTargetDependency */ = {
+		D4B8F2B524674434007F3615 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D403F01F2466BB6800A8BF49 /* ESCrypto */;
-			targetProxy = D403F03C2466BCFB00A8BF49 /* PBXContainerItemProxy */;
+			target = D4B8F2A824674434007F3615 /* ESCrypto */;
+			targetProxy = D4B8F2B424674434007F3615 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		D403F0252466BB6800A8BF49 /* Debug */ = {
+		D4B8F2BB24674434007F3615 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -348,6 +362,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -365,17 +380,19 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		D403F0262466BB6800A8BF49 /* Release */ = {
+		D4B8F2BC24674434007F3615 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -408,6 +425,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -419,82 +437,98 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		D403F0282466BB6800A8BF49 /* Debug */ = {
+		D4B8F2BE24674434007F3615 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 2W82R63KFN;
-				LIBRARY_SEARCH_PATHS = (
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ESCrypto/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)",
-					"$(PROJECT_DIR)/lib",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
 				);
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = DmitriyToropkin.ESCrypto;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		D403F0292466BB6800A8BF49 /* Release */ = {
+		D4B8F2BF24674434007F3615 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 2W82R63KFN;
-				LIBRARY_SEARCH_PATHS = (
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ESCrypto/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)",
-					"$(PROJECT_DIR)/lib",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
 				);
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = DmitriyToropkin.ESCrypto;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		D403F03F2466BCFB00A8BF49 /* Debug */ = {
+		D4B8F2C124674434007F3615 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2W82R63KFN;
-				INFOPLIST_FILE = ESCryptoTest/Info.plist;
+				INFOPLIST_FILE = ESCryptoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = DmitriyToropkin.ESCryptoTest;
+				PRODUCT_BUNDLE_IDENTIFIER = DmitriyToropkin.ESCryptoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		D403F0402466BCFB00A8BF49 /* Release */ = {
+		D4B8F2C224674434007F3615 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2W82R63KFN;
-				INFOPLIST_FILE = ESCryptoTest/Info.plist;
+				INFOPLIST_FILE = ESCryptoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = DmitriyToropkin.ESCryptoTest;
+				PRODUCT_BUNDLE_IDENTIFIER = DmitriyToropkin.ESCryptoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -504,34 +538,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D403F01B2466BB6800A8BF49 /* Build configuration list for PBXProject "ESCrypto" */ = {
+		D4B8F2A324674434007F3615 /* Build configuration list for PBXProject "ESCrypto" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D403F0252466BB6800A8BF49 /* Debug */,
-				D403F0262466BB6800A8BF49 /* Release */,
+				D4B8F2BB24674434007F3615 /* Debug */,
+				D4B8F2BC24674434007F3615 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D403F0272466BB6800A8BF49 /* Build configuration list for PBXNativeTarget "ESCrypto" */ = {
+		D4B8F2BD24674434007F3615 /* Build configuration list for PBXNativeTarget "ESCrypto" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D403F0282466BB6800A8BF49 /* Debug */,
-				D403F0292466BB6800A8BF49 /* Release */,
+				D4B8F2BE24674434007F3615 /* Debug */,
+				D4B8F2BF24674434007F3615 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D403F03E2466BCFB00A8BF49 /* Build configuration list for PBXNativeTarget "ESCryptoTest" */ = {
+		D4B8F2C024674434007F3615 /* Build configuration list for PBXNativeTarget "ESCryptoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D403F03F2466BCFB00A8BF49 /* Debug */,
-				D403F0402466BCFB00A8BF49 /* Release */,
+				D4B8F2C124674434007F3615 /* Debug */,
+				D4B8F2C224674434007F3615 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D403F0182466BB6800A8BF49 /* Project object */;
+	rootObject = D4B8F2A024674434007F3615 /* Project object */;
 }

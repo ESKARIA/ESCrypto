@@ -26,6 +26,7 @@ Pod::Spec.new do |s|
     s.framework = "Security"
     
     # 8
-    s.vendored_libraries = 'Builds/Products/**/*.{a,swiftmodule}'
+    s.source_files = "ESCrypto/**/*.{swift}"
+    
     
 end

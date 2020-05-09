@@ -18,7 +18,7 @@
 		D403F0482466BF5400A8BF49 /* ESConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = D403F0472466BF5400A8BF49 /* ESConstant.swift */; };
 		D403F04C2466BF8100A8BF49 /* ESAESConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = D403F04B2466BF8100A8BF49 /* ESAESConstant.swift */; };
 		D403F0502466C1EB00A8BF49 /* ESAESCryptoKeysModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D403F04F2466C1EB00A8BF49 /* ESAESCryptoKeysModel.swift */; };
-		D403F0552466DE4400A8BF49 /* libESCrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D403F0542466DE4400A8BF49 /* libESCrypto.a */; };
+		D403F05B2466E15F00A8BF49 /* libESCrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D403F05A2466E15F00A8BF49 /* libESCrypto.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,7 +58,7 @@
 		D403F04B2466BF8100A8BF49 /* ESAESConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESAESConstant.swift; sourceTree = "<group>"; };
 		D403F04F2466C1EB00A8BF49 /* ESAESCryptoKeysModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESAESCryptoKeysModel.swift; sourceTree = "<group>"; };
 		D403F0532466DABD00A8BF49 /* ESCrypto.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ESCrypto.podspec; sourceTree = "<group>"; };
-		D403F0542466DE4400A8BF49 /* libESCrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libESCrypto.a; sourceTree = "<group>"; };
+		D403F05A2466E15F00A8BF49 /* libESCrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libESCrypto.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D403F0552466DE4400A8BF49 /* libESCrypto.a in Frameworks */,
+				D403F05B2466E15F00A8BF49 /* libESCrypto.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				D403F0532466DABD00A8BF49 /* ESCrypto.podspec */,
+				D403F0592466E15F00A8BF49 /* lib */,
 				D403F0222466BB6800A8BF49 /* ESCrypto */,
 				D403F0372466BCFB00A8BF49 /* ESCryptoTest */,
 				D403F0212466BB6800A8BF49 /* Products */,
@@ -103,7 +104,6 @@
 		D403F0222466BB6800A8BF49 /* ESCrypto */ = {
 			isa = PBXGroup;
 			children = (
-				D403F0542466DE4400A8BF49 /* libESCrypto.a */,
 				D403F0492466BF6000A8BF49 /* Constant */,
 				D403F02C2466BBE200A8BF49 /* Data Layer */,
 			);
@@ -196,6 +196,14 @@
 				D403F02A2466BBC400A8BF49 /* ESCryptoError.swift */,
 			);
 			path = ESCryptoError;
+			sourceTree = "<group>";
+		};
+		D403F0592466E15F00A8BF49 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				D403F05A2466E15F00A8BF49 /* libESCrypto.a */,
+			);
+			path = lib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -441,6 +449,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/lib",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -458,6 +467,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/lib",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";

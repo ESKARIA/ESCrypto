@@ -57,7 +57,6 @@
 		D403F04B2466BF8100A8BF49 /* ESAESConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESAESConstant.swift; sourceTree = "<group>"; };
 		D403F04F2466C1EB00A8BF49 /* ESAESCryptoKeysModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESAESCryptoKeysModel.swift; sourceTree = "<group>"; };
 		D403F0532466DABD00A8BF49 /* ESCrypto.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ESCrypto.podspec; sourceTree = "<group>"; };
-		D403F0642466E2F200A8BF49 /* libESCrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libESCrypto.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +82,6 @@
 			isa = PBXGroup;
 			children = (
 				D403F0532466DABD00A8BF49 /* ESCrypto.podspec */,
-				D403F0592466E15F00A8BF49 /* lib */,
 				D403F0222466BB6800A8BF49 /* ESCrypto */,
 				D403F0372466BCFB00A8BF49 /* ESCryptoTest */,
 				D403F0212466BB6800A8BF49 /* Products */,
@@ -194,14 +192,6 @@
 				D403F02A2466BBC400A8BF49 /* ESCryptoError.swift */,
 			);
 			path = ESCryptoError;
-			sourceTree = "<group>";
-		};
-		D403F0592466E15F00A8BF49 /* lib */ = {
-			isa = PBXGroup;
-			children = (
-				D403F0642466E2F200A8BF49 /* libESCrypto.a */,
-			);
-			path = lib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -375,7 +365,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -429,7 +419,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

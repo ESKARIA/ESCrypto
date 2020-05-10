@@ -12,7 +12,9 @@ import CommonCrypto
 /// Manager for encrypting and decrypting data
 public struct ESCrypto {
     
+    /// singleton ESCrypto
     public static let shared: ESCryptoProtocol = ESCrypto()
+    /// crypto keys. Without override used standart value from constant file
     public var cryptoKeys: ESCryptoKeysModel = ESCryptoKeysModel() {
         didSet {
             do {
@@ -39,9 +41,10 @@ public struct ESCrypto {
 
 extension ESCrypto: ESCryptoProtocol {
     
-    /// encrypt data with key
-    /// - Parameter string: string to crypt
+    /// Encrypt data
     /// - Parameter completion: completion with optional data and optional error
+    /// - Parameter data: data to encrypt
+    /// - Parameter cryptoType: type for encryption
     public func encrypt(data: Data, cryptoType: ESCryptoType, completion: (Data?, ESCryptoError?) -> Void) {
         
         switch cryptoType {
@@ -50,9 +53,10 @@ extension ESCrypto: ESCryptoProtocol {
         }
     }
     
-    /// decrypt data with default key
-    /// - Parameter data: data to decrypt
+    /// decrypt data
+    /// - Parameter data: optional string
     /// - Parameter completion: completion with decrypted optional string and optional error
+    /// - Parameter cryptoType: type for encryption
     public func decrypt(data: Data?, cryptoType: ESCryptoType, completion: (Data?, ESCryptoError?) -> Void) {
         
         switch cryptoType {

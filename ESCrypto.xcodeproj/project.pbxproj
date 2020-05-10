@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D404060D24689EA500D5F3DF /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = D404060C24689EA500D5F3DF /* README.md */; };
 		D4B8F2B324674434007F3615 /* ESCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4B8F2A924674434007F3615 /* ESCrypto.framework */; };
 		D4B8F2B824674434007F3615 /* ESCryptoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B8F2B724674434007F3615 /* ESCryptoTests.swift */; };
 		D4B8F2BA24674434007F3615 /* ESCrypto.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B8F2AC24674434007F3615 /* ESCrypto.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -33,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D404060C24689EA500D5F3DF /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D4B8F2A924674434007F3615 /* ESCrypto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ESCrypto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4B8F2AC24674434007F3615 /* ESCrypto.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ESCrypto.h; sourceTree = "<group>"; };
 		D4B8F2AD24674434007F3615 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 		D4B8F29F24674434007F3615 = {
 			isa = PBXGroup;
 			children = (
+				D404060C24689EA500D5F3DF /* README.md */,
 				D4B8F2DE24674498007F3615 /* ESCrypto.podspec */,
 				D4B8F2AB24674434007F3615 /* ESCrypto */,
 				D4B8F2B624674434007F3615 /* ESCryptoTests */,
@@ -288,6 +291,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D404060D24689EA500D5F3DF /* README.md in Resources */,
 				D4B8F2DF24674498007F3615 /* ESCrypto.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

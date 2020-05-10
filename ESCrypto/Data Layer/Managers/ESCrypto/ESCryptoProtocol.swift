@@ -15,13 +15,15 @@ public enum ESCryptoType {
 /// Protocol for encrypting and decrypting data
 public protocol ESCryptoProtocol {
     
-    /// Encrypt string with default key
-    /// - Parameter string: encrypted data
+    /// Encrypt data
     /// - Parameter completion: completion with optional data and optional error
+    /// - Parameter data: data to encrypt
+    /// - Parameter cryptoType: type for encryption
     func encrypt(data: Data, cryptoType: ESCryptoType, completion: (Data?, ESCryptoError?) -> Void)
-    /// decrypt data with default key
+    /// decrypt data
     /// - Parameter data: optional string
     /// - Parameter completion: completion with decrypted optional string and optional error
+    /// - Parameter cryptoType: type for encryption
     func decrypt(data: Data?, cryptoType: ESCryptoType, completion: (Data?, ESCryptoError?) -> Void)
     /// crypto keys. Without override used standart value from constant file
     var cryptoKeys: ESCryptoKeysModel { get set }

@@ -70,6 +70,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D404060424686D8E00D5F3DF /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D4B8F2B924674434007F3615 /* Info.plist */,
+				D4B8F2B724674434007F3615 /* ESCryptoTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
 		D4B8F29F24674434007F3615 = {
 			isa = PBXGroup;
 			children = (
@@ -103,8 +112,7 @@
 		D4B8F2B624674434007F3615 /* ESCryptoTests */ = {
 			isa = PBXGroup;
 			children = (
-				D4B8F2B724674434007F3615 /* ESCryptoTests.swift */,
-				D4B8F2B924674434007F3615 /* Info.plist */,
+				D404060424686D8E00D5F3DF /* Tests */,
 			);
 			path = ESCryptoTests;
 			sourceTree = "<group>";
